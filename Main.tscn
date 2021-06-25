@@ -1,0 +1,88 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://platform_block.tscn" type="PackedScene" id=2]
+
+[node name="Main" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 239.982, 331.71 )
+scale = Vector2( 0.5, 0.5 )
+
+[node name="platform_block" parent="." instance=ExtResource( 2 )]
+position = Vector2( 38.6872, 455.883 )
+
+[node name="platform_block2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 39.4862, 375.592 )
+
+[node name="platform_block3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 445.751, 342.856 )
+
+[node name="platform_block4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 555.937, 278.876 )
+
+[node name="platform_block5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 632.813, 278.876 )
+
+[node name="platform_block6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 709.94, 278.876 )
+
+[node name="platform_block7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 786.815, 278.876 )
+
+[node name="platform_block8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 38.3352, 535.802 )
+
+[node name="platform_block9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 115.211, 535.802 )
+
+[node name="platform_block10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 192.338, 535.802 )
+
+[node name="platform_block11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 269.213, 535.802 )
+
+[node name="platform_block12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 343.805, 535.802 )
+
+[node name="platform_block13" parent="." instance=ExtResource( 2 )]
+position = Vector2( 420.681, 535.802 )
+
+[node name="platform_block14" parent="." instance=ExtResource( 2 )]
+position = Vector2( 497.808, 535.802 )
+
+[node name="platform_block15" parent="." instance=ExtResource( 2 )]
+position = Vector2( 574.683, 535.802 )
+
+[node name="platform_block16" parent="." instance=ExtResource( 2 )]
+position = Vector2( 646.651, 536.235 )
+
+[node name="platform_block17" parent="." instance=ExtResource( 2 )]
+position = Vector2( 723.527, 536.235 )
+
+[node name="platform_block18" parent="." instance=ExtResource( 2 )]
+position = Vector2( 800.654, 536.235 )
+
+[node name="platform_block19" parent="." instance=ExtResource( 2 )]
+position = Vector2( 877.529, 536.235 )
+
+[node name="platform_block21" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1029.96, 536.24 )
+
+[node name="platform_block20" parent="." instance=ExtResource( 2 )]
+position = Vector2( 953.088, 536.24 )
+
+[node name="platform_block25" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1182.41, 454.152 )
+
+[node name="platform_block22" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1107.09, 536.24 )
+
+[node name="platform_block24" parent="." instance=ExtResource( 2 )]
+position = Vector2( 144, 408 )
+
+[node name="platform_block26" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1183.21, 373.86 )
+
+[node name="platform_block23" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1183.97, 536.24 )
